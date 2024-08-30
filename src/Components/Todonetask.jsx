@@ -1,5 +1,5 @@
 import React from "react"
-// ეეს არის ჩვეულებრივად ფუნქციურით 
+
 
 const Todonetasks = ({key,id,task,action,action2}) => {
     console.log(id,'done')
@@ -19,9 +19,6 @@ export default React.memo(Todonetasks)
 
 ///////////////////////////////////////////////////////////////////////////////////////////
 
-
-// ეს არის კლასობრივი აქ ეს PureComponent არის იგივე shouldcomponentsupdate ოღონდ შვილზე ეს თვითონვე ამოწმებს 
-// შეიცვალა თუარა პროპსები და დაარენდეროს თუ არა
 
 
 
